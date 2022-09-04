@@ -258,3 +258,27 @@ td, th {
     margin: 2em auto;
 
 }
+
+/*CSS DA PÁGINA CONTATO*/
+
+main {
+    padding: 3em 3em;
+}
+
+@media  screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imgBeneficios {
+        width: 100%;
+    }
+}
