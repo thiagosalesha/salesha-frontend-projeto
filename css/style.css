@@ -96,8 +96,7 @@ footer {
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
+
 }
 
 form {
@@ -160,6 +159,12 @@ td, th {
     width: 100%;
 }
 
+.principal {
+    padding: 3em 0;
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
 
 /* não é boa prática utilizar palavras de estilização para definir classes*/
 .titulo-principal {
@@ -169,8 +174,13 @@ td, th {
     clear: left /*Limpa a interferência do atributo float da classe utensilios*/;
 }
 
+.titulo-principal:first-letter {
+    font-weight: bold;
+}
+
 .principal p {
     margin: 0 0 1em;
+
 }
 
 .principal strong {
@@ -183,6 +193,12 @@ td, th {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -193,6 +209,7 @@ td, th {
 
 .beneficios {
     padding: 3em 0;
+    background-color: #888888;
 }
 
 .conteudo-beneficios {
@@ -214,6 +231,9 @@ td, th {
     font-weight: bold;
 }
 
+.itens::before {
+    content: "★ ";
+}
 .imgBeneficios {
     width: 60%;
 }
