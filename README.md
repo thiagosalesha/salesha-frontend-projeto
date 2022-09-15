@@ -1,3 +1,5 @@
-# salesha-frontend-projetos
+# salesha-frontend-projeto
 
-Pastas com projetos Frontend - Curso Alura
+- Projeto Barbearia
+  
+    - Referência: Curso - HTML e CSS (Formação Frontend - Alura)
